@@ -1,0 +1,6 @@
+Files are in pickle format. Further description of accumulation rates to be found in paper submitted for publication.  
+
+X, Y : Location of airborne radar pick in EPSG 3031 polar stereographic coordinates
+Rel_Accum : Accumulation rates as derived from NASA Operation IceBridge snow radar. This is relative accumulation,
+accumulation rate at that point divided by a 25 km mean accumulation rate. Can be used to study small-scale 
+variability in accumulation rate, but will not provide absolute values of accumulation. 
