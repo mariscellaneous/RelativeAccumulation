@@ -33,9 +33,9 @@ Relative_Accumulation_Error: Error in relative accumulation as described in Supp
 
 Can be found in: 
 - Output/Read_Relative_Accumulation_Pickle.ipynb
-- RelativeAccumulationRates.p
+- Output/RelativeAccumulationRates.p
 
-With python file reader found in Read_Relative_Accumulation_Pickle.ipynb
+With Python file reader found in: Read_Relative_Accumulation_Pickle.ipynb
 
 ---
 
