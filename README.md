@@ -11,6 +11,13 @@ This README describes how to:
 Data are available in pickle & csv file, as described below. Currently, the full code is available upon request.
 
 ---
+**Authors**
+
+Dr. Brooke Medley (primary)
+
+Dr. Marissa Dattler (secondary)
+
+---
 
 ## Description of .csv file
 
