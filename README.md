@@ -14,12 +14,12 @@ Data are available in pickle & csv file, as described below. Currently, the full
 
 ## Description of csv file
 
-Latitude: Latitude of airborne snow radar pick location
-Longitude: Longitude of airborne snow radar pick location 
+**Latitude**: Latitude of airborne snow radar pick location
+**Longitude**: Longitude of airborne snow radar pick location 
 
-Absolute_Accumulation_Rate: Accumulation rates as derived from NASA Operation IceBridge snow radar and forced to MERRA-2 P-E on MERRA-2's gridscale. Please note this product is heavily dependent on MERRA-2 P-E.
+**_Absolute_Accumulation_Rate_**: Accumulation rates as derived from NASA Operation IceBridge snow radar and forced to MERRA-2 P-E on MERRA-2's gridscale. Please note this product is heavily dependent on MERRA-2 P-E.
 
-Relative_Accumulation: Absolute accumulation rate at a radar pick divided by a 25 km mean absolute accumulation rate. This is analagous to  cumulative mass divided by 25 km mean cumulative mass. Can be used to study small-scale variability in accumulation rate, but will not provide absolute accumulation rates in m w.e./yr. It is largely independent of MERRA-2 P-E. 
+**_Relative_Accumulation_**: Absolute accumulation rate at a radar pick divided by a 25 km mean absolute accumulation rate. This is analagous to  cumulative mass divided by 25 km mean cumulative mass. Can be used to study small-scale variability in accumulation rate, but will not provide absolute accumulation rates in m w.e./yr. It is largely independent of MERRA-2 P-E. 
 Relative_Accumulation_Error: Error in relative accumulation as described in Supplement S1. 
 
 ---
