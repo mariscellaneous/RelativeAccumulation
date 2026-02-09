@@ -6,7 +6,7 @@
 
 **Dr. Brooke Medley (primary)** from NASA Goddard Space Flight Center
 
-Dr. Marissa Dattler (secondary)
+Dr. Marissa Dattler (some editing/author of READ ME instructions)
 
 ---
 
@@ -129,7 +129,6 @@ tmpl_picker_man_auto_brooke
 
 Follow the prompts. The automated option only works well when the layer is extremely clear; manual picking is often more reliable.
 
-**Note:** If your project requires automated multi-layer picking, your workflow will likely diverge here (this pipeline assumes interactive picking of layers).
 
 ---
 
@@ -170,7 +169,7 @@ For each segment file, you should see variables such as:
 * **Wrong ROOTPATH**: ROOTPATH should be the parent folder containing the date folder.
 * **Date mismatch**: The `date` string must exactly match the directory name.
 * **Missing credentials for NSIDC downloads**: verify Earthdata login and cookie/`wget` configuration.
-* **Picker issues**: if the IRH is discontinuous, the UI may be frustrating; consider choosing a clearer horizon or excluding problematic segments.
+* **Picker issues**: if the IRH is discontinuous, layer picking may be frustrating; consider choosing a clearer horizon or excluding problematic segments.
 
 ---
 
