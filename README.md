@@ -157,7 +157,7 @@ For each segment file, you should see variables such as:
 
 * `lay`
   A 1-D array of **two-way travel times (TWTT)** for your layer picks
-  Typically one pick per **100 m** along-track sample.
+  Typically one pick per **100 m** along-track sample (can be adjusted).
 * `accR`
   Accumulation rates associated with those picks (relative accumulation output from `cal_rel_accum`).
 
