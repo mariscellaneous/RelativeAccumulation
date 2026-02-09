@@ -2,7 +2,7 @@
 # Relative Accumulation — Finding accumulation rates from OIB Snow Radar
 
 ---
-## Authors
+## Code Authors
 
 Dr. Brooke Medley **(primary)**
 
