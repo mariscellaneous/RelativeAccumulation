@@ -12,7 +12,7 @@ Data are available in pickle & csv file, as described below. Currently, the full
 
 ---
 
-## Description of csv file
+## Description of .csv file
 
 **Latitude**: Latitude of airborne snow radar pick location \
 **Longitude**: Longitude of airborne snow radar pick location 
