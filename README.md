@@ -1,5 +1,5 @@
 
-# Computing_Accum — Finding accumulation rates from OIB Snow Radar
+# Relative Accumulation — Finding accumulation rates from OIB Snow Radar
 
 This README describes how to: 
 
