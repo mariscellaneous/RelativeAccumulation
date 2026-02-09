@@ -1,6 +1,15 @@
 
 # Relative Accumulation — Finding accumulation rates from OIB Snow Radar
 
+---
+## Authors
+
+Dr. Brooke Medley **(primary)**
+
+Dr. Marissa Dattler (secondary)
+
+---
+
 This README describes how to: 
 
    (1) download NASA Operation IceBridge (OIB) Snow Radar echograms, \
@@ -9,13 +18,6 @@ This README describes how to:
    (4) compute relative accumulation rates from the picked layers.
 
 Data are available in pickle & csv file, as described below. Currently, the full code is available upon request.
-
----
-**Authors**
-
-Dr. Brooke Medley (primary)
-
-Dr. Marissa Dattler (secondary)
 
 ---
 
