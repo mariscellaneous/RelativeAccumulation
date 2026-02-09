@@ -14,7 +14,7 @@ Data are available in pickle & csv file, as described below. Currently, the full
 
 ## Description of csv file
 
-**Latitude**: Latitude of airborne snow radar pick location
+**Latitude**: Latitude of airborne snow radar pick location \
 **Longitude**: Longitude of airborne snow radar pick location 
 
 **_Absolute_Accumulation_Rate_**: Accumulation rates as derived from NASA Operation IceBridge snow radar and forced to MERRA-2 P-E on MERRA-2's gridscale. Please note this product is heavily dependent on MERRA-2 P-E.
