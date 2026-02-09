@@ -4,7 +4,7 @@
 ---
 ## Code Authors
 
-**Dr. Brooke Medley (primary)**
+**Dr. Brooke Medley (primary)** (NASA Goddard Space Flight Center)
 
 Dr. Marissa Dattler (secondary)
 
