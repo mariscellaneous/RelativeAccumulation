@@ -4,7 +4,7 @@
 ---
 ## Code Authors
 
-Dr. Brooke Medley **(primary)**
+**Dr. Brooke Medley (primary)**
 
 Dr. Marissa Dattler (secondary)
 
