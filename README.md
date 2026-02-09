@@ -1,7 +1,12 @@
 
 # Computing_Accum — Finding accumulation rates from OIB Snow Radar
 
-This README describes how to (1) download NASA Operation IceBridge (OIB) Snow Radar echograms, (2) preprocess them in MATLAB, (3) pick layers, and (4) compute relative accumulation rates from the picked layers.
+This README describes how to: 
+
+   (1) download NASA Operation IceBridge (OIB) Snow Radar echograms, \
+   (2) preprocess them in MATLAB, \
+   (3) pick layers, and \
+   (4) compute relative accumulation rates from the picked layers.
 
 Currently, the full code is available upon request.
 
@@ -30,7 +35,6 @@ Currently, the full code is available upon request.
 
 ## Step 1 — Download OIB Snow Radar data (before opening MATLAB)
 
-### 1.1 Get the data
 Download OIB Snow Radar echogram files from NSIDC:
 
 `https://n5eil01u.ecs.nsidc.org/ICEBRIDGE/IRSNO1B.002/{DATE}`
@@ -38,23 +42,6 @@ Download OIB Snow Radar echogram files from NSIDC:
 - Replace `{DATE}` with the flight date folder used by NSIDC (example: `2009.10.18`)
 - You will need an Earthdata login.
 
-### 1.2 Recommended directory structure
-If you mirror the organization used in `SAMPLE_DATA/`, path management is simple. For example:
-
-```
-
-Computing_Accum/
-SAMPLE_DATA/
-2009.10.18/
-*.nc
-
-````
-
-### 1.3 Optional: using wget (advanced)
-You can use `wget` to automate downloads, but NSIDC authentication uses Earthdata credentials. That typically requires setting up cookies or a `.netrc` file.
-
-Earthdata/NSIDC guidance:
-https://wiki.earthdata.nasa.gov/pages/viewpage.action?pageId=70453983
 
 ---
 
@@ -86,7 +73,7 @@ radar_processing(date, 100, 9, ROOTPATH);
 % Normalizes surface to 0 and applies along-track smoothing
 % Arguments here reflect:
 %   100 = along-track spacing (m) used downstream
-%   9   = smoothing parameter (project-specific)
+%   9   = smoothing parameter 
 
 comb_echo(date, ROOTPATH);
 % Merges processed echograms into ~25 km segments
@@ -160,17 +147,6 @@ For each segment file, you should see variables such as:
 * **Date mismatch**: The `date` string must exactly match the directory name.
 * **Missing credentials for NSIDC downloads**: verify Earthdata login and cookie/`wget` configuration.
 * **Picker issues**: if the IRH is discontinuous, the UI may be frustrating; consider choosing a clearer horizon or excluding problematic segments.
-
----
-
-## Notes for future development
-
-* This workflow is designed for **interactive** layer picking.
-* If you plan to pick **multiple layers automatically**, you may need to:
-
-  * replace the manual picker step,
-  * modify downstream code to handle multiple horizons,
-  * standardize outputs across segments.
 
 ---
 
