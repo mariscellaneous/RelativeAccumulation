@@ -4,9 +4,9 @@
 ---
 ## Code Authors
 
-**Dr. Brooke Medley (primary)** from NASA Goddard Space Flight Center
+Dr. Brooke Medley from NASA Goddard Space Flight Center
 
-Dr. Marissa Dattler (some editing/author of READ ME instructions)
+Dr. Marissa Dattler
 
 ---
 
