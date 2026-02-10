@@ -17,8 +17,6 @@ This README describes how to:
    (3) pick layers, and \
    (4) compute relative accumulation rates from the picked layers.
 
-Data are available in pickle & csv file, as described below. Currently, the full code is available upon request.
-
 ---
 
 ## Description of data from paper (.csv file / .p file)
