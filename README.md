@@ -52,12 +52,12 @@ With Python file reader found in: Read_Relative_Accumulation_Pickle.ipynb
 
 ## Requirements
 
-- MATLAB (tested with standard MATLAB toolboxes used by the scripts)
+- MATLAB
 - An **Earthdata Login** (required by NSIDC to download data)
 - This codebase on your machine, with the included `SAMPLE_DATA/` directory structure as a template
 - MERRA-2 P-E (annual)
 - MERRA-2 T2m (annual)
-- Functions: lowess (Jeff Burkey), peakfinder (Nathanael C. Yoder), dist (Peter Worcester "As told to Bruce Cornuelle"), brewermap (Stephen Cobeldick)
+- Externally  required functions: lowess (Jeff Burkey), peakfinder (Nathanael C. Yoder), dist (Peter Worcester "As told to Bruce Cornuelle"), brewermap (Stephen Cobeldick)
 
 ---
 
